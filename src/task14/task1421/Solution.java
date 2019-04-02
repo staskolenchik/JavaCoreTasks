@@ -1,0 +1,15 @@
+package com.javarush.task.task14.task1421;
+
+/* 
+Singleton
+*/
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(Singleton.getInstance()); //объект 1
+        System.out.println(Singleton.getInstance()); //объект 2
+
+        System.out.println(Singleton.getInstance().equals(Singleton.getInstance()));
+    }
+
+
+}
